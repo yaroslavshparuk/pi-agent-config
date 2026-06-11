@@ -6,7 +6,7 @@ Version-controlled Pi setup.
 
 ```bash
 npm install -g --ignore-scripts @earendil-works/pi-coding-agent
-git clone <YOUR-REMOTE-URL> ~/repos/pi-agent-config
+git clone https://github.com/yaroslavshparuk/pi-agent-config ~/repos/pi-agent-config
 ~/repos/pi-agent-config/install.sh
 pi
 /login
