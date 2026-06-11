@@ -1,0 +1,16 @@
+{
+  "name": "yaroslav-pi-agent-config",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Yaroslav's personal Pi agent configuration package.",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./extensions"],
+    "skills": ["./skills"],
+    "prompts": ["./prompts"],
+    "themes": ["./themes"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}

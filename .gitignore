@@ -1,0 +1,13 @@
+# Dependencies / generated installs
+node_modules/
+npm/
+git/
+cache/
+sessions/
+*.log
+
+# Secrets and local machine state
+auth.json
+trust.json
+settings.local.json
+.env
