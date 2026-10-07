@@ -23,13 +23,16 @@ pi install "$repo_dir"
 
 # Install the global Pi packages used on the source machine.
 packages=(
+  "npm:pi-opencode-bridge"
   "npm:context-mode"
   "npm:pi-subagents"
-  "npm:pi-mcp-adapter"
   "npm:pi-web-access"
   "npm:@juicesharp/rpiv-ask-user-question"
   "npm:@juicesharp/rpiv-todo"
-  "npm:@marckrenn/pi-sub-bar"
+  "npm:@ff-labs/pi-fff"
+  "npm:@quintinshaw/pi-dynamic-workflows"
+  "npm:cc-safety-net"
+  "npm:pi-hermes-memory"
 )
 for pkg in "${packages[@]}"; do
   pi install "$pkg"
